@@ -17,4 +17,5 @@
 
   # Refrences
   - https://github.com/edgorman/Voxel-Engine/tree/main
-  - 
+  - https://github.com/Renanse/Ardor3D
+  - https://github.com/aaasen/voxel-party/tree/master
