@@ -14,3 +14,7 @@
 
 # Project Points:
 - Code from scratch - optimize the hell out of it
+
+  # Refrences
+  - https://github.com/edgorman/Voxel-Engine/tree/main
+  - 
