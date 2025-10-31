@@ -7,7 +7,8 @@ import static org.lwjgl.glfw.GLFW.*;
 import static org.lwjgl.opengl.GL11.*;
 import static org.lwjgl.system.MemoryUtil.NULL;
 
-public class LwjglMain {
+public class LwjglMain 
+{
     private long window;
     private int width = 1280, height = 720;
     private Camera camera = new Camera();
@@ -15,7 +16,8 @@ public class LwjglMain {
     private double lastX, lastY;
     private boolean dragging = false;
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         new LwjglMain().run();
     }
 
@@ -67,7 +69,8 @@ public class LwjglMain {
         setupProjection();
     }
 
-    private void setupProjection() {
+    private void setupProjection() 
+    {
         glMatrixMode(GL_PROJECTION);
         glLoadIdentity();
         float aspect = (float) width / Math.max(1, height);
