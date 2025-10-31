@@ -12,7 +12,8 @@ public class Camera
     public void addPitch(float d) { pitch = clamp(pitch + d, -89f, 89f); }
     public void addDistance(float d) { distance = Math.max(1f, distance + d); }
 
-    private float clamp(float v, float a, float b) {
+    private float clamp(float v, float a, float b) 
+    {
         return Math.max(a, Math.min(b, v));
     }
 
