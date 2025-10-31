@@ -24,7 +24,8 @@
 
 # Java toolchain (this can change later):
 - install java 17 or higher
-- ./gradlew clean build --refresh-dependencies
+- ./gradlew clean build --refresh-dependencies\
+- ./gradlew run
 
   # Refrences
   - https://github.com/edgorman/Voxel-Engine/tree/main
